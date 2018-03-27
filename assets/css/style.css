@@ -122,3 +122,22 @@ header {
 	border-radius: 6px;
 }
 
+/*--------*/
+
+#socialSection {
+	width: 100%;
+	margin: 0 0 10% 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social {
+	width: 47%;
+}
+
+/*--------*/
+
+#philosophySection {
+	width: 85%;
+/*	border: solid 1px black;
+*/}
