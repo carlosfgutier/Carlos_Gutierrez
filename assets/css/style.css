@@ -1,0 +1,78 @@
+h1 {
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+#topLine {
+	height: 3px;
+	background-color: #5c6bc0;
+	color: pink;
+}
+
+#container {
+	font-size: 20px;
+	font-family: 'Source Code Pro', monospace;
+	color: #5c6bc0;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#navBar {
+	margin: 2% 0;
+	display: flex;
+	justify-content: space-between;
+/*	border: solid 1px black;*/
+}
+
+#buttonsSection {
+	width: 50%;
+}
+
+#navButtons {
+	display: flex;
+	justify-content: space-around;
+}
+
+#navButtons > div {
+	margin: 3% 0 0 0;
+}
+
+/*--------*/
+
+#aboutInfo {
+	margin: 15% 0 0 0;
+/*	border: solid 1px black;*/
+}
+
+#short {
+	width: 70%;
+	line-height: 40px;
+/*	border: solid 1px black;*/
+}
+
+#downArrow {
+	margin: 10% 0;
+}
+
+/*--------*/
+
+#portfolioSection {
+	width: 100%;
+/*	border: solid 1px black;
+*/}
+
+.portRow {
+	display: flex;
+	justify-content: space-between;
+}
+
+.project {
+	text-align: center;
+	background-color: #5c6bc0;
+	color: white;
+	width: 30%;
+	padding: 8% 0;
+	margin: 2% 0;
+	border-radius: 6px;
+}
+
