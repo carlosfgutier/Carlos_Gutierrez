@@ -134,6 +134,12 @@ footer {
 	border-radius: 6px;
 }
 
+#ftSummary {
+	font-size: 15px;
+	line-height: 20px;
+	width: 60%;
+}
+
 /*--------*/
 
 #socialSection {
