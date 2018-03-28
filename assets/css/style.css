@@ -6,11 +6,11 @@ h1 {
 h3 {
 	font-size: 25px;
 	color: #26418f;
-	margin: 0 0 5% 0;
+	margin: 0 0 3% 0;
 }
 
 header {
-	color: #8e99f3;
+	color: #b6b8c3;
 	margin: 5% 0;
 }
 
@@ -18,6 +18,8 @@ footer {
 	background-color: #26418f;
 	padding: 3% 0;
 }
+
+/*--------*/
 
 #topLine {
 	height: 3px;
@@ -153,7 +155,7 @@ footer {
 
 #fInfo {
 	color: white;
-	width: 40%;
+	width: 50%;
 	margin: 3% 0;
 }
 
@@ -164,3 +166,22 @@ footer {
 	display: flex;
 	justify-content: space-between;
 }
+
+/*--------*/
+
+.lh40 {line-height: 40px;}
+
+.gray {color: #b6b8c3;}
+
+.pink {color: #ec407a;}
+
+.pink:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.light {color: #8e99f3;}
+
+.dark {color: #5c6bc0;}
+
+.darker {color: #26418f;}
