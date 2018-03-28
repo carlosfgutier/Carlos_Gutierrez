@@ -9,6 +9,10 @@ h3 {
 	margin: 0 0 3% 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 header {
 	color: #b6b8c3;
 	margin: 5% 0;
@@ -175,13 +179,20 @@ footer {
 
 .pink {color: #ec407a;}
 
-.pink:hover {
-	text-decoration: underline;
-	cursor: pointer;
-}
-
 .light {color: #8e99f3;}
 
 .dark {color: #5c6bc0;}
 
 .darker {color: #26418f;}
+
+.hover:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.pinkHover:hover {
+	color: #ec407a;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
