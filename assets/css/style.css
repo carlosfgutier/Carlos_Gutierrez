@@ -181,6 +181,8 @@ footer {
 
 .lh40 {line-height: 40px;}
 
+.white {color: white;}
+
 .gray {color: #b6b8c3;}
 
 .pink {color: #ec407a;}
@@ -198,6 +200,12 @@ footer {
 
 .pinkHover:hover {
 	color: #ec407a;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.whiteHover:hover {
+	color: white;
 	text-decoration: underline;
 	cursor: pointer;
 }
