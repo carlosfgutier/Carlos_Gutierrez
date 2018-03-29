@@ -43,6 +43,8 @@ footer {
 	margin: 2% 0;
 	display: flex;
 	justify-content: space-between;
+	/*position: sticky;
+	top: 0;*/
 /*	border: solid 1px black;*/
 }
 
@@ -63,6 +65,7 @@ footer {
 
 #aboutInfo {
 	margin: 15% 0 0 0;
+	position: relative;
 /*	border: solid 1px black;*/
 }
 
@@ -210,3 +213,26 @@ footer {
 	cursor: pointer;
 }
 
+
+
+#gradientBlock1 {
+	width: 100%;
+	padding: 20% 0;
+	background-image: linear-gradient(132deg, #ec407a, #5c6bc0);
+	opacity: 0.1;
+	position: absolute;
+	top: -70px;
+	right: 20px;
+	transform: rotate(5deg);
+}
+
+#pinkSquare1 {
+	width: 10%;
+	height: 300px;
+	background-color: #ec407a;
+	opacity: 0.2;
+	position: absolute;
+	bottom: -100px;
+	right: 0;
+	transform: rotate(-2deg);
+}
