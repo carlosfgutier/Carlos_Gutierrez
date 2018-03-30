@@ -27,7 +27,7 @@ footer {
 /*--------*/
 
 #topLine {
-	height: 3px;
+	height: .150rem;
 	background-color: #5c6bc0;
 	background-image: linear-gradient(95deg,  #26418f, #ec407a);
 	color: pink;
