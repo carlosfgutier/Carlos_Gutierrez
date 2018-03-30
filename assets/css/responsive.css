@@ -1,6 +1,220 @@
 @media only screen 
   	and (max-device-width: 667px) 
   	and (-webkit-min-device-pixel-ratio: 2) {
+	
+	h1 {
+		font-size: 4rem;
+		font-weight: bolder;
+	}
 
+	h3 {
+		font-size: 2rem;
+		color: #26418f;
+		margin: 0 0 3% 0;
+	}
 
+	a {
+		text-decoration: none;
+	}
+
+	header {
+		color: #b6b8c3;
+		margin: 5% 0;
+	}
+
+	footer {
+		/*background-color: #26418f;*/
+		background-image: linear-gradient(45deg,  #26418f, #ec407a);
+		padding: 3% 0;
+	}
+
+	/*--------*/
+
+	#topLine {
+		height: .5rem;
+		background-color: #5c6bc0;
+		background-image: linear-gradient(95deg,  #26418f, #ec407a);
+		color: pink;
+	}
+
+	.container {
+		font-size: 1rem;
+		font-family: 'Source Code Pro', monospace;
+		color: #5c6bc0;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	#navBar {
+		margin: 2% 0;
+		display: flex;
+		justify-content: space-between;
+		/*position: sticky;
+		top: 0;*/
+	/*	border: solid 1px black;*/
+	}
+
+	#buttonsSection {
+		display: none;
+	}
+
+	#navButtons {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	#navButtons > div {
+		margin: 3% 0 0 0;
+	}
+
+	/*--------*/
+
+	#aboutInfo {
+		margin: 15% 0 0 0;
+		position: relative;
+	/*	border: solid 1px black;*/
+	}
+
+	#short {
+		width: 70%;
+		line-height: 40px;
+	/*	border: solid 1px black;*/
+	}
+
+	#downArrow {
+		margin: 10% 0 9% 0;
+	}
+
+	/*--------*/
+
+	#portfolioSection {
+		width: 100%;
+		margin: 0 0 10% 0;
+	/*	border: solid 1px black;*/
+	}
+
+	.portRow {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.project {
+		text-align: center;
+		width: 30%;
+		padding: 8% 0%;
+		margin: 2% 0%;
+		border: 2px solid transparent;
+		border-image: url('../images/smoothG.png') 30 stretch;
+		/*transition: 3s;*/
+	}
+
+	/*--------*/
+
+	#skillsSection {
+		width: 100%;
+		margin: 0 0 10% 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.skills {
+		width: 47%;
+		/*border: solid 1px black;*/
+	}
+
+	.soft {
+		margin: 0 0 10% 0;
+	}
+
+	/*--------*/
+
+	#ftSection {
+		width: 100%;
+		margin: 0 0 10% 0;
+		/*border: solid 1px black;*/
+	}
+
+	#featured {
+		text-align: center;
+		width: 100%;
+		padding: 20% 0;
+		border: 2px solid transparent;
+		border-image: url('../images/gradient.png') 30 stretch;
+	}
+
+	#ftSummary {
+		font-size: 1rem;
+		line-height: 20px;
+		width: 60%;
+	}
+
+	/*--------*/
+
+	#socialSection {
+		width: 100%;
+		margin: 0 0 10% 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.social {
+		width: 47%;
+	}
+
+	/*--------*/
+
+	#philosophySection {
+		width: 85%;
+		margin: 0 0 10% 0;
+	/*	border: solid 1px black;
+	*/}
+
+	/*--------*/
+
+	#fInfo {
+		color: white;
+		width: 50%;
+		margin: 3% 0;
+	}
+
+	#suffix {
+		color: white;
+		width: 80%;
+		margin: 3% 0;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	/*--------*/
+
+	.lh40 {line-height: 40px;}
+
+	.white {color: white;}
+
+	.gray {color: #b6b8c3;}
+
+	.pink {color: #ec407a;}
+
+	.light {color: #8e99f3;}
+
+	.dark {color: #5c6bc0;}
+
+	.darker {color: #26418f;}
+
+	.hover:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	.pinkHover:hover {
+		color: #ec407a;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	.whiteHover:hover {
+		color: white;
+		text-decoration: underline;
+		cursor: pointer;
+	}
 }
