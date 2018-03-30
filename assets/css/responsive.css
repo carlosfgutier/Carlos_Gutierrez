@@ -39,8 +39,8 @@
 	}
 
 	.container {
-		font-size: 2rem;
-		line-height: 3rem; 
+		font-size: 2em;
+		line-height: 3em; 
 		font-family: 'Source Code Pro', monospace;
 		color: #5c6bc0;
 		width: 90%;
@@ -50,13 +50,13 @@
 	/*--------*/
 
 	#navBar {
-		line-height: 2rem;
+		font-size: 1.5em;
+		line-height: 1em;
 		margin: 10% 0;
 		display: flex;
 		justify-content: space-between;
 		/*position: sticky;
 		top: 0;*/
-	/*	border: solid 1px black;*/
 	}
 
 	#buttonsSection {
@@ -68,40 +68,36 @@
 	#aboutInfo {
 		margin: 15% 0 0 0;
 		position: relative;
-	/*	border: solid 1px black;*/
 	}
 
 	#short {
-		width: 70%;
+		width: 80%;
 		line-height: 40px;
-	/*	border: solid 1px black;*/
 	}
 
-	#downArrow {
-		font-size: .8rem;
-		line-height: 3rem;
-		margin: 10% 0 9% 0;
+	#downArrow > img {
+		width: 3em;
+		height: 3em;
+		margin: 0 0 5em 0;
 	}
 
 	/*--------*/
 
 	#portfolioSection {
 		width: 100%;
-		margin: 0 0 10% 0;
-	/*	border: solid 1px black;*/
+		margin: 0 0 5em 0;
 	}
 
 	.portRow {
-		display: flex;
-		justify-content: space-between;
+		display: inline;
 	}
 
 	.project {
 		text-align: center;
-		width: 30%;
+		width: 95%;
 		padding: 8% 0%;
 		margin: 2% 0%;
-		border: 2px solid transparent;
+		border: .125em solid transparent;
 		border-image: url('../images/smoothG.png') 30 stretch;
 		/*transition: 3s;*/
 	}
@@ -111,25 +107,23 @@
 	#skillsSection {
 		width: 100%;
 		margin: 0 0 10% 0;
-		display: flex;
-		justify-content: space-between;
+		display: inline;
 	}
 
 	.skills {
-		width: 47%;
-		/*border: solid 1px black;*/
+		width: 100%;
+		margin: 0 0 5em 0;
 	}
 
 	.soft {
-		margin: 0 0 10% 0;
+		margin: 5% 0 5% 0;
 	}
 
 	/*--------*/
 
 	#ftSection {
 		width: 100%;
-		margin: 0 0 10% 0;
-		/*border: solid 1px black;*/
+		margin: 0 0 5em 0;
 	}
 
 	#featured {
@@ -140,10 +134,15 @@
 		border-image: url('../images/gradient.png') 30 stretch;
 	}
 
+	#ftTitle {
+		font-size: .5em;
+		line-height: 1em;
+	}
+
 	#ftSummary {
-		font-size: 1rem;
-		line-height: 20px;
-		width: 60%;
+		font-size: .45em;
+		line-height: 1em;
+		width: 100%;
 	}
 
 	/*--------*/
