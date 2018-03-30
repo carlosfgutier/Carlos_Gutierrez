@@ -4,11 +4,12 @@
 	
 	h1 {
 		font-size: 4rem;
+		line-height: 5rem;
 		font-weight: bolder;
 	}
 
 	h3 {
-		font-size: 2rem;
+		font-size: 3rem;
 		color: #26418f;
 		margin: 0 0 3% 0;
 	}
@@ -38,15 +39,19 @@
 	}
 
 	.container {
-		font-size: 1rem;
+		font-size: 2rem;
+		line-height: 3rem; 
 		font-family: 'Source Code Pro', monospace;
 		color: #5c6bc0;
-		width: 80%;
+		width: 90%;
 		margin: 0 auto;
 	}
 
+	/*--------*/
+
 	#navBar {
-		margin: 2% 0;
+		line-height: 2rem;
+		margin: 10% 0;
 		display: flex;
 		justify-content: space-between;
 		/*position: sticky;
@@ -56,15 +61,6 @@
 
 	#buttonsSection {
 		display: none;
-	}
-
-	#navButtons {
-		display: flex;
-		justify-content: space-around;
-	}
-
-	#navButtons > div {
-		margin: 3% 0 0 0;
 	}
 
 	/*--------*/
@@ -82,6 +78,8 @@
 	}
 
 	#downArrow {
+		font-size: .8rem;
+		line-height: 3rem;
 		margin: 10% 0 9% 0;
 	}
 
