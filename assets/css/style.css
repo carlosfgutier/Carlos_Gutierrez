@@ -1,10 +1,10 @@
 h1 {
-	font-size: 60px;
+	font-size: 4rem;
 	font-weight: bolder;
 }
 
 h3 {
-	font-size: 25px;
+	font-size: 2rem;
 	color: #26418f;
 	margin: 0 0 3% 0;
 }
@@ -34,7 +34,7 @@ footer {
 }
 
 .container {
-	font-size: 20px;
+	font-size: 1.2rem;
 	font-family: 'Source Code Pro', monospace;
 	color: #5c6bc0;
 	width: 80%;
@@ -97,8 +97,8 @@ footer {
 .project {
 	text-align: center;
 	width: 30%;
-	padding: 8% 0;
-	margin: 2% 0;
+	padding: 8% 0%;
+	margin: 2% 0%;
 	border: 2px solid transparent;
 	border-image: url('../images/smoothG.png') 30 stretch;
 	/*transition: 3s;*/
@@ -139,7 +139,7 @@ footer {
 }
 
 #ftSummary {
-	font-size: 15px;
+	font-size: 1rem;
 	line-height: 20px;
 	width: 60%;
 }
