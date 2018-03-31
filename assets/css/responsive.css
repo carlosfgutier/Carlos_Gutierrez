@@ -178,11 +178,11 @@
 		color: white;
 		width: 100%;
 		margin: 3% 0;
-		display: inline;
+		display: flex;
 	}
 
 	.marginTop5em {
-		margin-top: 5em;
+		/*margin-top: 2em;*/
 	}
 
 	/*--------*/

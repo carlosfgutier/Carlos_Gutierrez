@@ -97,7 +97,7 @@ footer {
 .project {
 	text-align: center;
 	width: 30%;
-	padding: 8% 0%;
+	padding: 8% 1%;
 	margin: 2% 0%;
 	border: 2px solid transparent;
 	border-image: url('../images/smoothG.png') 30 stretch;
