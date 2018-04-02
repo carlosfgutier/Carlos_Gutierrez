@@ -16,7 +16,7 @@ function parallax() {
 		if (offset > screenHeight && offset) {
 			$(this).css('background-position', 'center ' + (( -dft ) *0.5) + 'px');
 		} else {
-			$(this).css('background-position', 'center ' + (( scroll ) *0.5) + 'px');
+			$(this).css('background-position', 'center ' + (( -scroll ) *0.5) + 'px');
 		}
 	});
 };

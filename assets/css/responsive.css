@@ -98,9 +98,12 @@
 		width: 95%;
 		padding: 8% 0%;
 		margin: 2% 0%;
-		border: .125em solid transparent;
-		border-image: url('../images/smoothG.png') 30 stretch;
+		border: none;
 		/*transition: 3s;*/
+	}
+
+	.projectName {
+		background-color: rgba(255, 255, 255, 0.6);
 	}
 	
 	.parallax-bg {
@@ -139,8 +142,7 @@
 		text-align: center;
 		width: 100%;
 		padding: 20% 0;
-		border: 2px solid transparent;
-		border-image: url('../images/gradient.png') 30 stretch;
+		border: none;
 	}
 
 	#ftTitle {
