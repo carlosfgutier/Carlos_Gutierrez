@@ -20,7 +20,7 @@ header {
 
 footer {
 	/*background-color: #26418f;*/
-	background-image: linear-gradient(45deg,  #26418f, #ec407a);
+	background-image: linear-gradient(195deg,  #233d8b, #6cc71c);
 	padding: 3% 0;
 }
 
@@ -28,15 +28,15 @@ footer {
 
 #topLine {
 	height: .150rem;
-	background-color: #5c6bc0;
-	background-image: linear-gradient(95deg,  #26418f, #ec407a);
+	background-color: #233d8b;
+	background-image: linear-gradient(95deg,  #6cc71c, #233d8b);
 	color: pink;
 }
 
 .container {
 	font-size: 1.2rem;
 	font-family: 'Source Code Pro', monospace;
-	color: #5c6bc0;
+	color: #233d8b;
 	width: 80%;
 	margin: 0 auto;
 }
@@ -135,7 +135,7 @@ footer {
 	width: 100%;
 	padding: 20% 0;
 	border: 2px solid transparent;
-	border-image: url('../images/gradient.png') 30 stretch;
+	border-image: url('../images/smoothG.png') 30 stretch;
 }
 
 #ftSummary {
@@ -189,11 +189,11 @@ footer {
 
 .gray {color: #b6b8c3;}
 
-.pink {color: #ec407a;}
+.pink {color: #6cc71c;}
 
 .light {color: #8e99f3;}
 
-.dark {color: #5c6bc0;}
+.dark {color: #233d8b;}
 
 .darker {color: #26418f;}
 
@@ -203,7 +203,7 @@ footer {
 }
 
 .pinkHover:hover {
-	color: #ec407a;
+	color: #6cc71c;
 	text-decoration: underline;
 	cursor: pointer;
 }
@@ -219,7 +219,7 @@ footer {
 /*#gradientBlock1 {
 	width: 100%;
 	padding: 20% 0;
-	background-image: linear-gradient(132deg, #ec407a, #5c6bc0);
+	background-image: linear-gradient(132deg, #6cc71c, #233d8b);
 	opacity: 0.1;
 	position: absolute;
 	top: -70px;
@@ -230,7 +230,7 @@ footer {
 #pinkSquare1 {
 	width: 10%;
 	height: 300px;
-	background-color: #ec407a;
+	background-color: #6cc71c;
 	opacity: 0.2;
 	position: absolute;
 	bottom: -100px;
