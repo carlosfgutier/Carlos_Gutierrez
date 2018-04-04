@@ -26,7 +26,7 @@
 	}
 
 	footer {
-		background-image: linear-gradient(45deg,  #26418f, #ec407a);
+		background-image: linear-gradient(45deg, #ec407a, #26418f);
 		padding: 3% 0;
 	}
 
@@ -34,7 +34,7 @@
 
 	#topLine {
 		height: .5rem;
-		background-color: #5c6bc0;
+		background-color: #233d8b;
 		background-image: linear-gradient(95deg,  #26418f, #ec407a);
 		color: pink;
 	}
@@ -43,7 +43,7 @@
 		font-size: 2em;
 		line-height: 3em; 
 		font-family: 'Source Code Pro', monospace;
-		color: #5c6bc0;
+		color: #233d8b;
 		width: 90%;
 		margin: 0 auto;
 	}
@@ -99,6 +99,8 @@
 		padding: 8% 0%;
 		margin: 2% 0%;
 		border: none;
+		border: 0.125em solid transparent;
+		border-image: url('../images/one.png') 30 stretch;
 		/*transition: 3s;*/
 	}
 
@@ -207,7 +209,7 @@
 
 	.light {color: #8e99f3;}
 
-	.dark {color: #5c6bc0;}
+	.dark {color: #233d8b;}
 
 	.darker {color: #26418f;}
 
