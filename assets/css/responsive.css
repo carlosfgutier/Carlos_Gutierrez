@@ -229,4 +229,8 @@
 		text-decoration: underline;
 		cursor: pointer;
 	}
+
+	.parallax {
+		display: none;
+	}
 }
