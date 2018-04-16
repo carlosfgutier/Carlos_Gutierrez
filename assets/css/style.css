@@ -5,7 +5,7 @@ h1 {
 
 h3 {
 	font-size: 2rem;
-	color: #26418f;
+	color: #380036;
 	margin: 0 0 3% 0;
 }
 
@@ -19,8 +19,8 @@ header {
 }
 
 footer {
-	/*background-color: #26418f;*/
-	background-image: linear-gradient(195deg,  #233d8b, #6cc71c);
+	background-color: #0cbaba;
+	background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
 	padding: 3% 0;
 }
 
@@ -28,15 +28,15 @@ footer {
 
 #topLine {
 	height: .150rem;
-	background-color: #233d8b;
-	background-image: linear-gradient(95deg,  #6cc71c, #233d8b);
+	background-color: #0cbaba;
+	background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
 	color: pink;
 }
 
 .container {
 	font-size: 1.2rem;
 	font-family: 'Source Code Pro', monospace;
-	color: #233d8b;
+	color: #380036;
 	width: 80%;
 	margin: 0 auto;
 }
@@ -190,13 +190,13 @@ footer {
 
 .gray {color: #b6b8c3;}
 
-.pink {color: #6cc71c;}
+.pink {color: #0cbaba;}
 
 .light {color: #8e99f3;}
 
-.dark {color: #233d8b;}
+.dark {color: #380036;}
 
-.darker {color: #26418f;}
+.darker {color: #380036;}
 
 .hover:hover {
 	text-decoration: underline;
@@ -204,7 +204,7 @@ footer {
 }
 
 .pinkHover:hover {
-	color: #6cc71c;
+	color: #0cbaba;
 	text-decoration: underline;
 	cursor: pointer;
 }
