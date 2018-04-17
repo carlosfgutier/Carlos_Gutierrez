@@ -100,7 +100,7 @@ footer {
 	padding: 8% 1%;
 	margin: 2% 0%;
 	border: 2px solid transparent;
-	border-image: url('../images/smoothG.png') 30 stretch;
+	border-image: url('../images/mid.png') 30 stretch;
 	/*transition: 3s;*/
 }
 
@@ -136,7 +136,7 @@ footer {
 	width: 100%;
 	padding: 20% 0;
 	border: 2px solid transparent;
-	border-image: url('../images/smoothG.png') 30 stretch;
+	border-image: url('../images/full.png') 30 stretch;
 }
 
 #ftSummary {
